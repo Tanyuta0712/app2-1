@@ -1,12 +1,12 @@
 import React from 'react'
-import {MyAbout,MyImage,MyData} from './func-mydata'
+import Calendar from './class-components'
 import {Navbar,Header,Footer} from './func-components'
 import MsgBox from './func-props'
 
 
 function App() {
 
-return [<MyAbout />,<MyImage />,<MyData />]
+return [<Navbar />,<Calendar />,<Header />,<Footer />]
 /*return(
   <MsgBox 
   text="Useing props in function component"
